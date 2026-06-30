@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yuvasri ❤️ Thiru</title>
+<style>
+body{font-family:Arial;background:linear-gradient(135deg,#ffd6e7,#fff);text-align:center;padding:40px}
+.card{max-width:700px;margin:auto;background:#fff;padding:30px;border-radius:20px;box-shadow:0 8px 20px #0002}
+img{max-width:100%;border-radius:12px}.heart{position:fixed;color:#ff4f81;animation:f 8s linear infinite}
+@keyframes f{from{transform:translateY(100vh)}to{transform:translateY(-120px)}}
+button{padding:12px 22px;border:none;border-radius:25px;background:#ff4f81;color:#fff}
+</style></head><body>
+<div class="card">
+<h1>Yuvasri ❤️ Thiru</h1>
+<p>Our journey began on <b>25 November 2025</b>.</p>
+<p>Dear Yuvasri,<br><br>
+I'm sincerely sorry for the times I hurt you. I'm not asking for an immediate answer. I simply wanted you to know that I've reflected on my mistakes and want to become a better person. Thank you for every memory we've shared. Whatever you decide, I'll respect your feelings and wish you happiness.<br><br>— Thiru ❤️</p>
+<p>Add your photos as <b>photo1.jpg</b>, <b>photo2.jpg</b> and your music as <b>music.mp3</b> in this folder.</p>
+<img src="photo1.jpg" onerror="this.style.display='none'">
+<audio controls><source src="music.mp3" type="audio/mpeg"></audio>
+</div>
+<script>
+for(let i=0;i<50;i++){let h=document.createElement('div');h.className='heart';h.innerHTML='❤';h.style.left=Math.random()*100+'vw';h.style.fontSize=(15+Math.random()*20)+'px';h.style.animationDuration=(5+Math.random()*5)+'s';document.body.appendChild(h);}
+</script></body></html>
